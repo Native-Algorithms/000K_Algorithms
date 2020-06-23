@@ -64,6 +64,20 @@ class Box<T> {
 }
 ```
 
+Now, to benefit from a specialized box for this generic, you need to instantiate it:
+
+```
+    val box = Box<Int>()
+    box.put(4)
+    val boolBox = Box<Boolean>()
+    boolBox.put(true)
+    boolBox.isEmpty()
+```
+
+
+
+
+
 
 
 
