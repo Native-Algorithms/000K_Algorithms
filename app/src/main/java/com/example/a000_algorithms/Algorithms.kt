@@ -13,3 +13,18 @@ fun main (args: Array<String>) {
     obj.hola()
 
 }
+
+class Box {
+    var content: Any? = null
+    fun put(content: Any?) {
+        this.content = content
+    }
+
+    fun retrieve(): Any? {
+        return content
+    }
+
+    fun isEmpty(): Boolean {
+        return content == null
+    }
+}

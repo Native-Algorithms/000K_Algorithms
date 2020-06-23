@@ -27,5 +27,27 @@ x--} while (x > 0)
 fun max(a: Int, b: Int): Int {return if (a > b) a else b}
 ```
 
+## Generics
+
+
+```
+class Box {
+    var content: Any? = null
+    fun put(content: Any?) {
+        this.content = content
+    }
+
+    fun retrieve(): Any? {
+        return content
+    }
+
+    fun isEmpty(): Boolean {
+        return content == null
+    }
+}
+```
+
+
+
 
 
