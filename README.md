@@ -21,6 +21,11 @@ var x = 10do {
 x--} while (x > 0)
 ```
 
+## Functions
+
+```
+fun max(a: Int, b: Int): Int {return if (a > b) a else b}
+```
 
 
 
